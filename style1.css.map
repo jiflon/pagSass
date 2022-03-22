@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAA;ECCN,cAAc,EAAE,GAAG;EACnB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;CDDlB;;AAED,AAAA,MAAM,CAAA;ECGF,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,MAAM;EACvB,OAAO,EAAE,SAAU;CDJtB;;AAED,AAAA,IAAI,CAAA;EACA,gBAAgB,ECXN,OAAO;CDYpB",
+    "sources": [
+        "../Tarea1Sass/sass/style1.scss",
+        "../Tarea1Sass/sass/_mixinStyle.scss"
+    ],
+    "names": [],
+    "file": "style1.css"
+}

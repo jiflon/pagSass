@@ -1,0 +1,14 @@
+$colorOrange: #fdd07a;
+
+@mixin principal{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+@mixin slid {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 320px ;
+}

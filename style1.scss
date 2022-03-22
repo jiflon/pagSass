@@ -1,0 +1,19 @@
+@import "mixinStyle";
+
+#principal{
+    @include principal()
+}
+
+.slide{
+ @include slid()
+}
+
+body{
+    background-color: $colorOrange;
+}
+
+//tablet
+
+body{
+    @include tablets
+}

@@ -1,0 +1,62 @@
+//mixing
+@mixin navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $colorBackground ;
+    color: $colorBlue;
+}
+
+@mixin PrincipalRedes {
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+}
+@mixin blog {
+display: flex;
+justify-content: center;
+flex-direction: column;
+border: 2px solid rgb(207, 199, 199); 
+border-radius: 5px;
+padding-left: 10px;
+align-items: center;
+}
+@mixin slider {
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     font-size: 15px;
+     padding: 8px;  
+     background-color: rgb(72, 141, 141);
+     border-radius: 5px;
+     padding-bottom: 25px;
+}
+@mixin hov {
+    color: rgb(230, 46, 46);
+    background-color: white;
+}
+@mixin DescripSect {
+    border: 2px gray solid;
+     border-radius: 5px;
+     font-size: 20px;
+     display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+@mixin video {
+    display: flex;
+     flex-wrap: wrap;   
+}
+@mixin img {
+    max-width: 50px;
+     padding: 20px;
+     align-items: flex-end;
+     justify-content: flex-end; 
+}
+
+@mixin redes {
+    display: flex;
+    align-items: flex-end;
+}

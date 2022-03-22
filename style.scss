@@ -1,0 +1,65 @@
+@import "mixin";
+@import "variables";
+
+
+//body
+html{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: $colorPurple;
+    font-family: $fuenteFont;
+    font-size: $size;
+}
+.img{
+    max-height: $maxHeight;
+}
+
+img{
+    max-height: $maxHeight;
+}
+
+.navBar{
+   @include navBar()
+}
+.logo{
+    display: flex;
+}
+
+.nosotros  {
+    @include PrincipalRedes()
+}
+#principal{
+   display: flex;
+}
+
+.blog .Blog2 .blogA{
+    @include blog()
+}
+
+.slide{
+    @include slider()
+}
+
+footer{
+  text-align: $cen;
+}
+
+a:hover{
+    @include hov()
+}
+
+.description .section2{
+    @include DescripSect()
+}
+.video{
+    @include video()
+}
+.redes{
+   @include redes
+}
+
+
+
